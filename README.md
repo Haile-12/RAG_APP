@@ -107,12 +107,21 @@ RAG-QA/
 
 ## ⚙️ Backend Setup (FastAPI)
 
+## 📥 Clone the Repository
+
+To get started, clone this repository to your local machine:
+
+```bash
+git clone https://github.com/Haile-12/RAG_APP.git
+```
 ### 1️⃣ Move into Backend Directory
 ```bash
 cd backend
 ```
 
 ### 2️⃣ Create Virtual Environment
+- Your Python Version should  3.8–3.12 (⚠️ **Not 3.14** — Sentence Transformers doesn’t work on Python 3.14 because its core dependencies (like PyTorch and Tokenizers) don’t yet have compatible builds for that Python version until now(OCT 11,2025 )
+
 ```bash
 python -m venv venv
 ```
