@@ -144,7 +144,7 @@ GEMINI_API_KEY=your_api_key_here
 
 ### 5️⃣ Run Backend Server
 ```bash
-uvicorn app.main:app --reload
+uvicorn main:app --reload --port 8000
 ```
 ✅ Runs at → http://127.0.0.1:8000  
 Swagger Docs → http://127.0.0.1:8000/docs
